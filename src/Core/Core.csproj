@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <AssemblyName>Paraminter.Commands.Core</AssemblyName>
+        
+        <PackageId>Paraminter.Commands.Core</PackageId>
+        <Description>Defines the core components of Paraminter commands.</Description>
+    </PropertyGroup>
+
+</Project>
