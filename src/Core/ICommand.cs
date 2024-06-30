@@ -1,4 +1,4 @@
-﻿namespace Paraminter.Commands;
+﻿namespace Paraminter;
 
 /// <summary>Represents a command.</summary>
 public interface ICommand { }
