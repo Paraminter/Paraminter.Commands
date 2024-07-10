@@ -1,4 +1,4 @@
-﻿namespace Paraminter;
+﻿namespace Paraminter.Commands.Coordinators;
 
 /// <summary>Creates a command.</summary>
 /// <typeparam name="TCommand">The type of the created command.</typeparam>
