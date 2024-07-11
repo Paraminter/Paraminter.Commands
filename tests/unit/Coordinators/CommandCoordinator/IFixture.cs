@@ -2,6 +2,8 @@
 
 using Moq;
 
+using Paraminter.Commands.Handlers;
+
 internal interface IFixture<TCommand, TCommandFactory>
     where TCommand : ICommand
     where TCommandFactory : class

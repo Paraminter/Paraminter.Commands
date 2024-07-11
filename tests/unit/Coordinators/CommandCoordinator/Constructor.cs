@@ -2,6 +2,8 @@
 
 using Moq;
 
+using Paraminter.Commands.Handlers;
+
 using System;
 
 using Xunit;
