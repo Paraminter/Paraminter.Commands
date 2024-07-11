@@ -1,5 +1,7 @@
 ﻿namespace Paraminter.Commands.Coordinators;
 
+using Paraminter.Commands.Handlers;
+
 using System;
 
 /// <inheritdoc cref="ICommandCoordinator{TCommand, TCommandFactory}"/>
