@@ -24,7 +24,7 @@ public sealed class CommandCoordinator<TCommand, TCommandFactory>
     }
 
     void ICommandCoordinator<TCommand, TCommandFactory>.Handle(
-        DCreateCommand<TCommand, TCommandFactory> commandCreationDelegate)
+        DCreateCommandThroughFactory<TCommandFactory, TCommand> commandCreationDelegate)
     {
         if (commandCreationDelegate is null)
         {

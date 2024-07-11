@@ -1,4 +1,4 @@
-# Paraminter.Commands
+# Paraminter.Commands.Core
 
 Defines `Paraminter` commands.
 
