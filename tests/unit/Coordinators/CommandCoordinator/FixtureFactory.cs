@@ -2,6 +2,8 @@
 
 using Moq;
 
+using Paraminter.Commands.Handlers;
+
 internal static class FixtureFactory
 {
     public static IFixture<TCommand, TCommandFactory> Create<TCommand, TCommandFactory>()
