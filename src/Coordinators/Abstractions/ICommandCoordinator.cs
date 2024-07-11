@@ -9,5 +9,5 @@ public interface ICommandCoordinator<TCommand, TCommandFactory>
     /// <summary>Creates and handles a command.</summary>
     /// <param name="commandCreationDelegate">Creates the command to be handled.</param>
     public abstract void Handle(
-        DCreateCommand<TCommand, TCommandFactory> commandCreationDelegate);
+        DCreateCommandThroughFactory<TCommandFactory, TCommand> commandCreationDelegate);
 }

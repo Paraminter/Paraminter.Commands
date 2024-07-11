@@ -23,7 +23,7 @@ public sealed class Handle
     {
         var fixture = FixtureFactory.Create<ICommand, object>();
 
-        Mock<DCreateCommand<ICommand, object>> commandCreationDelegateMock = new();
+        Mock<DCreateCommandThroughFactory<object, ICommand>> commandCreationDelegateMock = new();
 
         var command = Mock.Of<ICommand>();
 
@@ -36,7 +36,7 @@ public sealed class Handle
 
     private static void Target<TCommand, TCommandFactory>(
         IFixture<TCommand, TCommandFactory> fixture,
-        DCreateCommand<TCommand, TCommandFactory> commandCreationDelegate)
+        DCreateCommandThroughFactory<TCommandFactory, TCommand> commandCreationDelegate)
         where TCommand : ICommand
         where TCommandFactory : class
     {

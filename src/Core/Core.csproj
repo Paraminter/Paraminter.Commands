@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <AssemblyName>Paraminter.Commands</AssemblyName>
+        <AssemblyName>Paraminter.Commands.Core</AssemblyName>
         
-        <PackageId>Paraminter.Commands</PackageId>
+        <PackageId>Paraminter.Commands.Core</PackageId>
         <Description>Defines Paraminter commands.</Description>
     </PropertyGroup>
 

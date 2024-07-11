@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <AssemblyName>Paraminter.Commands.Coordinators</AssemblyName>
+        <AssemblyName>Paraminter.Commands.Services</AssemblyName>
         
-        <PackageId>Paraminter.Commands.Coordinators</PackageId>
-        <Description>Provides general implementations of services related to Paraminter command coordinators.</Description>
+        <PackageId>Paraminter.Commands.Services</PackageId>
+        <Description>Provides general implementations of services related to Paraminter commands.</Description>
     </PropertyGroup>
 
     <ItemGroup>
