@@ -15,9 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D439AB97-4A0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "src\Core\Core.csproj", "{9C409513-FE55-4C1C-9359-13D519F95912}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Handlers", "Handlers", "{83A0C055-1095-42AB-A448-6AF85037E7E7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Handlers.Abstractions", "src\Handlers\Abstractions\Handlers.Abstractions.csproj", "{927F4607-0C01-4608-B050-91EC21023ED9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Handlers", "src\Handlers\Handlers.csproj", "{2810C0FA-F4CA-4377-B42C-700C793F5003}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,17 +27,16 @@ Global
 		{9C409513-FE55-4C1C-9359-13D519F95912}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C409513-FE55-4C1C-9359-13D519F95912}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C409513-FE55-4C1C-9359-13D519F95912}.Release|Any CPU.Build.0 = Release|Any CPU
-		{927F4607-0C01-4608-B050-91EC21023ED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{927F4607-0C01-4608-B050-91EC21023ED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{927F4607-0C01-4608-B050-91EC21023ED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{927F4607-0C01-4608-B050-91EC21023ED9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2810C0FA-F4CA-4377-B42C-700C793F5003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2810C0FA-F4CA-4377-B42C-700C793F5003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2810C0FA-F4CA-4377-B42C-700C793F5003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2810C0FA-F4CA-4377-B42C-700C793F5003}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9C409513-FE55-4C1C-9359-13D519F95912} = {D439AB97-4A0F-4EB4-8F29-46633D072DA9}
-		{83A0C055-1095-42AB-A448-6AF85037E7E7} = {D439AB97-4A0F-4EB4-8F29-46633D072DA9}
-		{927F4607-0C01-4608-B050-91EC21023ED9} = {83A0C055-1095-42AB-A448-6AF85037E7E7}
+		{2810C0FA-F4CA-4377-B42C-700C793F5003} = {D439AB97-4A0F-4EB4-8F29-46633D072DA9}
 	EndGlobalSection
 EndGlobal

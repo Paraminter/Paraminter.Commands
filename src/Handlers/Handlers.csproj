@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <AssemblyName>Paraminter.Commands.Handlers.Core</AssemblyName>
+
+        <RootNamespace>Paraminter.Commands.Handlers</RootNamespace>
+        
+        <PackageId>Paraminter.Commands.Handlers.Core</PackageId>
+        <Description>Defines Paraminter command handlers.</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="$(SolutionDir)\src\Core\Core.csproj" />
+    </ItemGroup>
+
+</Project>
