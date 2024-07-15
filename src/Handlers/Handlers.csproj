@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <AssemblyName>Paraminter.Commands.Handlers.Core</AssemblyName>
+        <AssemblyName>Paraminter.Commands.Handlers</AssemblyName>
 
         <RootNamespace>Paraminter.Commands.Handlers</RootNamespace>
         
-        <PackageId>Paraminter.Commands.Handlers.Core</PackageId>
+        <PackageId>Paraminter.Commands.Handlers</PackageId>
         <Description>Defines Paraminter command handlers.</Description>
     </PropertyGroup>
 

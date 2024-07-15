@@ -1,4 +1,4 @@
-# Paraminter.Commands.Handlers.Core
+# Paraminter.Commands.Handlers
 
 Defines `Paraminter` command handlers.
 
