@@ -1,5 +1,5 @@
-# Paraminter.Commands
+# Paraminter.Cqs.Commands
 
-Defines `Paraminter` commands.
+Defines `Paraminter` CQS commands.
 
-See [GitHub](https://github.com/Paraminter/Paraminter.Commands) for more information.
+See [GitHub](https://github.com/Paraminter/Paraminter.Cqs.Commands) for more information.

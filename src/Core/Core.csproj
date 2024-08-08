@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <AssemblyName>Paraminter.Commands</AssemblyName>
+        <AssemblyName>Paraminter.Cqs.Commands</AssemblyName>
         
-        <PackageId>Paraminter.Commands</PackageId>
-        <Description>Defines Paraminter commands.</Description>
+        <PackageId>Paraminter.Cqs.Commands</PackageId>
+        <Description>Defines Paraminter CQS commands.</Description>
     </PropertyGroup>
 
 </Project>

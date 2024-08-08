@@ -1,12 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <AssemblyName>Paraminter.Commands.Handlers</AssemblyName>
+        <AssemblyName>Paraminter.Cqs.Commands.Handlers</AssemblyName>
 
-        <RootNamespace>Paraminter.Commands.Handlers</RootNamespace>
+        <RootNamespace>Paraminter.Cqs.Handlers</RootNamespace>
         
-        <PackageId>Paraminter.Commands.Handlers</PackageId>
-        <Description>Defines Paraminter command handlers.</Description>
+        <PackageId>Paraminter.Cqs.Commands.Handlers</PackageId>
+        <Description>Defines Paraminter CQS command handlers.</Description>
     </PropertyGroup>
 
     <ItemGroup>

@@ -9,8 +9,8 @@
 
         <Owners>Paraminter</Owners>
         <Authors>ErikWe</Authors>
-        <PackageProjectUrl>https://github.com/Paraminter/Paraminter.Commands</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/Paraminter/Paraminter.Commands</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/Paraminter/Paraminter.Cqs.Commands</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/Paraminter/Paraminter.Cqs.Commands</RepositoryUrl>
         <PackageReadmeFile>README.nupkg.md</PackageReadmeFile>
         <PackageIcon>Logo.png</PackageIcon>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
