@@ -1,4 +1,4 @@
-﻿namespace Paraminter.Cqs.Handlers;
+﻿namespace Paraminter.Cqs;
 
 /// <summary>Handles commands.</summary>
 /// <typeparam name="TCommand">The type of the handled commands.</typeparam>
