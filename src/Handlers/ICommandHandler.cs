@@ -1,5 +1,7 @@
 ﻿namespace Paraminter.Cqs;
 
+using System.Threading.Tasks;
+
 /// <summary>Handles commands.</summary>
 /// <typeparam name="TCommand">The type of the handled commands.</typeparam>
 public interface ICommandHandler<in TCommand>
@@ -7,5 +9,6 @@ public interface ICommandHandler<in TCommand>
 {
     /// <summary>Handles the provided command.</summary>
     /// <param name="command">The handled command.</param>
-    public abstract void Handle(TCommand command);
+    /// <returns>A task representing the operation.</returns>
+    public abstract Task Handle(TCommand command);
 }
