@@ -12,5 +12,5 @@ public interface ICommandHandler<in TCommand>
     /// <param name="command">The handled command.</param>
     /// <param name="cancellationToken">Allows the operation to be cancelled.</param>
     /// <returns>A task representing the operation.</returns>
-    public abstract Task Handle(TCommand command, CancellationToken cancellationToken = default);
+    public abstract Task Handle(TCommand command, CancellationToken cancellationToken);
 }
