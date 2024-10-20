@@ -1,5 +1,6 @@
 ﻿namespace Paraminter.Cqs;
 
+using System.Threading;
 using System.Threading.Tasks;
 
 /// <summary>Handles commands.</summary>
@@ -9,6 +10,7 @@ public interface ICommandHandler<in TCommand>
 {
     /// <summary>Handles the provided command.</summary>
     /// <param name="command">The handled command.</param>
+    /// <param name="cancellationToken">Allows the operation to be cancelled.</param>
     /// <returns>A task representing the operation.</returns>
-    public abstract Task Handle(TCommand command);
+    public abstract Task Handle(TCommand command, CancellationToken cancellationToken = default);
 }
