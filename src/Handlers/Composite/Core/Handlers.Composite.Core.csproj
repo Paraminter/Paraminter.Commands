@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <AssemblyName>Paraminter.Cqs.Commands.Handlers.Composite</AssemblyName>
+
+        <RootNamespace>Paraminter.Cqs.Composite</RootNamespace>
+
+        <PackageId>Paraminter.Cqs.Commands.Handlers.Composite</PackageId>
+        <Description>Defines composite Paraminter CQS command handlers.</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="$(SolutionDir)\src\Core\Core.csproj" />
+        <ProjectReference Include="$(SolutionDir)\src\Handlers\Core\Handlers.Core.csproj" />
+    </ItemGroup>
+
+</Project>
