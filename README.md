@@ -1,3 +1,3 @@
 # Paraminter.Cqs.Commands
 
-Defines `Paraminter` CQS commands and command handlers.
+Defines `Paraminter` commands and command handlers.
