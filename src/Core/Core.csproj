@@ -4,7 +4,7 @@
         <AssemblyName>Paraminter.Cqs.Commands</AssemblyName>
         
         <PackageId>Paraminter.Cqs.Commands</PackageId>
-        <Description>Defines Paraminter CQS commands.</Description>
+        <Description>Defines Paraminter commands.</Description>
     </PropertyGroup>
 
 </Project>

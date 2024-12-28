@@ -1,5 +1,5 @@
 # Paraminter.Cqs.Commands.Handlers
 
-Provides `Paraminter` command handlers.
+Defines abstractions related to `Paraminter` command handlers.
 
 See [GitHub](https://github.com/Paraminter/Paraminter.Cqs.Commands) for more information.

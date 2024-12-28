@@ -1,10 +1,8 @@
-﻿namespace Paraminter.Composite;
+﻿namespace Paraminter;
 
 using Moq;
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -23,26 +21,14 @@ public sealed class Handle
     }
 
     [Fact]
-    public async Task ValidCommand_DispatchesToAllComponents()
+    public async Task ValidCommand_DoesNotThrow()
     {
         var fixture = FixtureFactory.Create<ICommand>();
         var command = Mock.Of<ICommand>();
 
-        IEnumerable<Mock<ICommandHandler<ICommand>>> componentMocks = [
-            new Mock<ICommandHandler<ICommand>>(),
-            new Mock<ICommandHandler<ICommand>>()
-        ];
+        var result = await Record.ExceptionAsync(() => Target(fixture, command, CancellationToken.None));
 
-        var components = componentMocks.Select(static (componentHandlerMock) => componentHandlerMock.Object);
-
-        fixture.ComponentsMock.Setup((enumerable) => enumerable.GetEnumerator()).Returns(components.GetEnumerator());
-
-        await Target(fixture, command, CancellationToken.None);
-
-        foreach (var componentMock in componentMocks)
-        {
-            componentMock.Verify((handler) => handler.Handle(command, It.IsAny<CancellationToken>()), Times.Once());
-        }
+        Assert.Null(result);
     }
 
     private static async Task Target<TCommand>(

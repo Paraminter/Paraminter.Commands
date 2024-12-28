@@ -1,4 +1,4 @@
-﻿namespace Paraminter.Cqs;
+﻿namespace Paraminter;
 
 using System.Threading;
 using System.Threading.Tasks;
