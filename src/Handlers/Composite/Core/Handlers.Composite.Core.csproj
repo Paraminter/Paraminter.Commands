@@ -3,15 +3,15 @@
     <PropertyGroup>
         <AssemblyName>Paraminter.Cqs.Commands.Handlers.Composite</AssemblyName>
 
-        <RootNamespace>Paraminter.Cqs.Composite</RootNamespace>
+        <RootNamespace>Paraminter.Composite</RootNamespace>
 
         <PackageId>Paraminter.Cqs.Commands.Handlers.Composite</PackageId>
-        <Description>Defines composite Paraminter CQS command handlers.</Description>
+        <Description>Provides composite Paraminter command handlers.</Description>
     </PropertyGroup>
 
     <ItemGroup>
         <ProjectReference Include="$(SolutionDir)\src\Core\Core.csproj" />
-        <ProjectReference Include="$(SolutionDir)\src\Handlers\Core\Handlers.Core.csproj" />
+        <ProjectReference Include="$(SolutionDir)\src\Handlers\Abstractions\Handlers.Abstractions.csproj" />
     </ItemGroup>
 
 </Project>

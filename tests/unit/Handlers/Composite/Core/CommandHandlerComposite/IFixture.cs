@@ -1,4 +1,4 @@
-﻿namespace Paraminter.Cqs.Composite;
+﻿namespace Paraminter.Composite;
 
 using Moq;
 
