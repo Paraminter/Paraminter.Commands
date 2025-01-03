@@ -13,8 +13,8 @@
         <PackageReference Include="xunit.runner.visualstudio" />
 
         <ProjectReference Include="$(SolutionDir)\src\Core\Core.csproj" />
-        <ProjectReference Include="$(SolutionDir)\src\Handlers\Composite\Core\Handlers.Composite.Core.csproj" />
         <ProjectReference Include="$(SolutionDir)\src\Handlers\Abstractions\Handlers.Abstractions.csproj" />
+        <ProjectReference Include="$(SolutionDir)\src\Handlers\Composite\Core\Handlers.Composite.Core.csproj" />
     </ItemGroup>
 
 </Project>

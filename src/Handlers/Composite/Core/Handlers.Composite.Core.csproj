@@ -3,8 +3,6 @@
     <PropertyGroup>
         <AssemblyName>Paraminter.Cqs.Commands.Handlers.Composite</AssemblyName>
 
-        <RootNamespace>Paraminter.Composite</RootNamespace>
-
         <PackageId>Paraminter.Cqs.Commands.Handlers.Composite</PackageId>
         <Description>Provides composite Paraminter command handlers.</Description>
     </PropertyGroup>
