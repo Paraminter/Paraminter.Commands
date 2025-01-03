@@ -10,7 +10,7 @@
 
         <ProjectReference Include="$(SolutionDir)\src\Core\Core.csproj" />
         <ProjectReference Include="$(SolutionDir)\src\Handlers\Abstractions\Handlers.Abstractions.csproj" />
-        <ProjectReference Include="$(SolutionDir)\src\Handlers\Core\Handlers.Core.csproj" />
+        <ProjectReference Include="$(SolutionDir)\src\Handlers\Null\Core\Handlers.Null.Core.csproj" />
     </ItemGroup>
 
 </Project>

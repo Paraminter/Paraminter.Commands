@@ -1,5 +1,5 @@
-# Paraminter.Cqs.Commands.Handlers
+# Paraminter.Cqs.Commands.Handlers.Null
 
-Provides `Paraminter` command handlers.
+Provides null `Paraminter` command handlers.
 
 See [GitHub](https://github.com/Paraminter/Paraminter.Cqs.Commands) for more information.
