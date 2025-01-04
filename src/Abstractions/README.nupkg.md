@@ -1,5 +1,5 @@
-# Paraminter.Cqs.Commands.Handlers.Null
+# Paraminter.Cqs.Commands.Abstractions
 
-Provides null `Paraminter` command handlers.
+Defines abstractions for `Paraminter` commands.
 
 See [GitHub](https://github.com/Paraminter/Paraminter.Cqs.Commands) for more information.
