@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <AssemblyName>Paraminter.Cqs.Commands</AssemblyName>
-        
+
         <PackageId>Paraminter.Cqs.Commands</PackageId>
         <Description>Defines Paraminter commands.</Description>
     </PropertyGroup>

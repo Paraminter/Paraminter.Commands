@@ -1,7 +1,0 @@
-[*.cs]
-
-# Identifiers should not contain underscores
-dotnet_diagnostic.CA1707.severity = none
-
-# Do not directly await a Task
-dotnet_diagnostic.CA2007.severity = none
